@@ -8,20 +8,21 @@ Task Estimation in Scrum
 
 Task estimation in Scrum is a critical part of project management, as it enables teams to allocate resources effectively and set realistic expectations for stakeholders. In the world of Agile and Scrum, accurate task estimation is essential for ensuring the successful delivery of projects on time and within budget. In this article, we will explore good practices and bad practices to avoid, providing a comprehensive look at task estimation in Scrum.
 
-![Benefits of agile scrum](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.7pace.com%2Fblog%2Fuser-story-estimation-techniques&psig=AOvVaw3enrJ5qSpaRK_BUwlwCsST&ust=1679929736697000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLiJrIvw-f0CFQAAAAAdAAAAABAE)
+![Benefits of agile scrum](https://www.7pace.com/wp-content/uploads/2022/03/01_Image_Benefits-Agile_system-scaled.jpg)
 
 Good Practices:
 1.	Use planning poker to estimate tasks collaboratively: Planning poker is a consensus based estimation technique that involves the entire team in the estimation process. Team members use a deck of cards with numbers representing different levels of effort to estimate a given task. This technique encourages discussion and helps the team reach a shared understanding of the task's level of difficulty.
 [Planning Poker: An Effective Estimation Technique](https://www.mountaingoatsoftware.com/agile/planning-poker)
-![Take a look at an how its done !](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.scrum-tips.com%2Fagile%2Fscrum-agile%2Fscrumtheory%2Fhow-to-choose-a-reference-task%2F&psig=AOvVaw2hkm02H6sXOAO6M5EitKKG&ust=1679929639729000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJiAiN3v-f0CFQAAAAAdAAAAABAE)
+![Take a look at an how its done !](http://www.scrum-tips.com/wp-content/uploads/2016/03/Tasks_ScrumTips.png)
 
 2.	Break down tasks into smaller, more manageable tasks: Larger tasks can be challenging to estimate accurately. By dividing them up into smaller tasks, team members can better understand the goals and requirements therefore  providing more precise estimates. This practice also makes it easier to manage and track progress and identify bottlenecks.
 3.	Consider using relative estimation such as story points rather than time-based estimates: Relative estimation also known as T-shirt sizing involves comparing tasks to one another based on their complexity, rather than estimating the time required to complete them. This method can be more accurate, as it factors in the team's expertise and allows for greater flexibility when adapting to changes in the project.
 [Top 5 Scrum Estimation Techniques](https://www.knowledgehut.com/blog/agile/top-5-scrum-estimation-techniques-find-your-best-fit)
-![T-shirt sizing diagram](https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.zenhub.com%2Fhow-to-estimate-in-agile-project-management%2F&psig=AOvVaw0YOQC8soSflb3IzFmyK1Ev&ust=1679929710393000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNDp2v7v-f0CFQAAAAAdAAAAABAE)
+![T-shirt sizing diagram](https://blog.zenhub.com/wp-content/uploads/2022/11/T-ShirtSizingEstimationChart.webp)
 4.	Revisit and adjust estimates as needed during the project lifecycle: As the project progresses and new information emerges, it is essential to revisit and adjust estimates accordingly. This practice ensures that the team remains aligned with the project's goals and can adapt to any changes in scope or requirements.
 5.	Engage all team members in conversations about estimations: Ensuring every team member participates in the estimation process allows for a wide array of viewpoints and skills to be taken into account. This cooperative method contributes to achieving more precise estimates and a deeper comprehension of the tasks being considered.
 6.	Examine historical estimation precision to enhance subsequent estimations: By assessing past successes and shortcomings in estimations, the team can discern trends and derive lessons from errors made. This knowledge can be employed to boost the accuracy of estimations in the future.
+
 
 
 
