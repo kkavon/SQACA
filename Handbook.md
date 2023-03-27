@@ -23,11 +23,6 @@ Good Practices:
 5.	Engage all team members in conversations about estimations: Ensuring every team member participates in the estimation process allows for a wide array of viewpoints and skills to be taken into account. This cooperative method contributes to achieving more precise estimates and a deeper comprehension of the tasks being considered.
 6.	Examine historical estimation precision to enhance subsequent estimations: By assessing past successes and shortcomings in estimations, the team can discern trends and derive lessons from errors made. This knowledge can be employed to boost the accuracy of estimations in the future.
 
-Bad Practices to Avoid:
-1.	Relying on a single individual for estimations: Depending on one person to estimate tasks can lead to biased or inaccurate estimates. Involving the entire team in the estimation process ensures a more balanced and accurate result.
-2.	Estimating without enough information about the task: Attempting to estimate tasks without enough information can lead to overly optimistic or pessimistic projections. It is essential to gather as much information as possible before starting the task estimation process.
-3.	Being overly optimistic or pessimistic with estimates: Overly optimistic estimates can lead to missed deadlines and disappointed stakeholders, while overly pessimistic estimates can result in wasted resources and reduced team morale. Team members must strive for a balanced, realistic approach to task estimation.
-4.	Not reviewing or adjusting estimates as new information emerges: Failing to revisit and adjust current estimates as the project continues to progresses can result in misaligned expectations and wasted resources. Regularly review and update estimates to ensure the team remains on track and aligned with the project's goals.
 
 
 
