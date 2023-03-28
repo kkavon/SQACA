@@ -40,6 +40,20 @@ Bad Practices to Avoid:
 4.	Not reviewing or adjusting estimates as new information emerges: Failing to revisit and adjust current estimates as the project continues to progresses can result in misaligned expectations and wasted resources. Regularly review and update estimates to ensure the team remains on track and aligned with the project's goals.
 
 
+<<<<<<< HEAD
+Common Themes:
+
+1. Collaboration: Involving the entire team in the estimation process ensures more accurate and balanced results.
+
+2. Task Decomposition: Breaking down tasks into smaller, more manageable units helps improve estimation accuracy and project management.
+
+3. Relative Estimation: Using methods like story points or T-shirt sizing allows for better flexibility and accuracy in task estimation.
+
+4. Continuous Adjustment: Revisiting and adjusting estimates throughout the project lifecycle is essential for staying aligned with project goals and adapting to changes.
+
+5. Learning from History: Analyzing past estimation successes and shortcomings can help improve future estimation accuracy.
+=======
+>>>>>>> 243171df86c0a4de95cca8f15cbde4c47525a154
 
 
 
@@ -49,16 +63,20 @@ A code review normally takes place when a software developer completes a task wh
 
 ![Code review process](https://www.researchgate.net/profile/Toshiki-Hirao/publication/303097906/figure/fig2/AS:637825489838081@1529080855326/An-Overview-of-Modern-Code-Review-Processes.png)
 
-Common themes among resources:
-1. Identifying bugs: By the code reviewer identifying bugs that have gone unnoticed, this makes the code secure that by when adding a new implementation of code, it will not hamper any previous code written.
+Good Practices:
+1. Duration of review: The duration of reviewing code at one time is very important. It is important to not exceed a certain amount of code as it is not focused enough and may be very easy to overlook something that may hinder the code.
+ [Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+![Best Practices for Code Review](https://static1.smartbear.co/smartbear/media/images/product/collaborator/code-review-best-practices-figure-01.gif)
+![Best Practices for Code Review](https://static1.smartbear.co/smartbear/media/images/product/collaborator/code-review-best-practices-figure-02.gif)
 
-2. Code reviewer: Ensuring that the reviewer must be of a senior level and have a high understanding of the code particularly that is being implemented and whether it can successfully be added to the current code.
+2. Positive attitude: When another member of the team is reviewing code, it is essential that when they are providing feedback that they construct it in a positive manner. This ensures that when that member will not feel they are not capable of doing the work assigned to them and will not fear taking on work in the future.
 
-3. Consistency: It is very important that when a team of coders are working together on a project that the code being implemented is to the same consistency of each other. It is important that code will be efficient and will run smoothly at all stages.
 
-4. Code Quality: By everyone writing the code to the level of what is expected this will result in the outcome of the project that has been undertaken.
+3. Qualifications: To be certain that the code provided is of the highest quality possible, it is necessary that employee reviewing the code has the correct qualifications to review code and will have the strongest understanding of what the code is doing and will be likely to spot potential errors that may occur if code is included into the release.
+[Whats the purpose of code reviews?](https://betterprogramming.pub/the-purpose-of-code-review-c9942ee551e2)
 
-Bad Practices:
+
+Bad Practices to Avoid:
 1. Reviewing too much code at time: When reviewing code, it is important not to take too much code to review at a certain time and not to exceed a time limit also.  don’t review over 400 lines at a time.
 
 2. Do not rush a code review: Taking the necessary time to review code and not overlook chunks of code. It would be very easy to glance through code provided and not having a clear understanding of what the code is actually doing.
@@ -70,20 +88,28 @@ Bad Practices:
 ![Benefits of coding reviews](https://distantjob.com/wp-content/uploads/2021/09/1st-Sep-DJ-Visual-Benefits-of-Code-Reviews.jpg)
 
 
-
-
-
-Extra Topic - DevOps
-
-DevOps is a set of practices and tools that integrates and automates the work of software development and IT operations to improve and shorten the systems development life cycle in the software development and IT industry. DevOps is primarily aimed at increasing an organization's ability to deliver applications and services quickly, evolving and improving products at a faster pace than those using traditional software development and infrastructure management processes. 
-
 Common themes among resources:
+1. Identifying bugs: By the code reviewer identifying bugs that have gone unnoticed, this makes the code secure that by when adding a new implementation of code, it will not hamper any previous code written.
 
+2. Code reviewer: Ensuring that the reviewer must be of a senior level and have a high understanding of the code particularly that is being implemented and whether it can successfully be added to the current code.
+
+3. Consistency: It is very important that when a team of coders are working together on a project that the code being implemented is to the same consistency of each other. It is important that code will be efficient and will run smoothly at all stages.
+
+4. Code Quality: By everyone writing the code to the level of what is expected this will result in the outcome of the project that has been undertaken.
+
+
+
+<<<<<<< HEAD
+
+=======
 Automation: All of the articles talk about the importance of automation in DevOps, whether it's about continuous integration and delivery (CI/CD), testing, or other processes. The importance of automation is heavily stressed.
 
 Collaboration: DevOps is about breaking down silos between teams and promoting collaboration between developers and operations. All of the articles talk about this highlighting the importance of communication and teamwork in DevOps.
+>>>>>>> 243171df86c0a4de95cca8f15cbde4c47525a154
 
-Best practices: Each of the articles provides insights into best practices for DevOps, whether it's specific techniques for automation, tips for building a DevOps culture, or strategies for integrating testing into the development process.
+
+Extra Topic - DevOps
+DevOps is a set of practices and tools that integrates and automates the work of software development and IT operations to improve and shorten the systems development life cycle in the software development and IT industry. DevOps is primarily aimed at increasing an organization's ability to deliver applications and services quickly, evolving and improving products at a faster pace than those using traditional software development and infrastructure management processes. 
 
 Good practices:
 1. Continuous Integration and delivery (CI/CD): This is a DevOps practice that involves automating the process of testing, integrating, and deploying code changes.It startes with frequent code changed being pushed to the repository where they are tested on the testing framework . Once the code passes all tests in the staging environment it is automatically deployed to the production environment giving faster and more reliable software.
@@ -98,7 +124,13 @@ Good practices:
 
 ![Agile Management](https://cdnb.ganttpro.com/uploads/2020/12/Why-Agile.png)
 
+<<<<<<< HEAD
+
+Bad Practices to Avoid:
+1. Silos: Maintaining silos between development and operations teams is a hindrance to effective communication and collaboration in software development. Silos can lead to slower delivery processes and increased risk of errors. DevOps addresses this issue by breaking down silos and promoting cross-functional teams. By fostering a culture of shared responsibility and collaboration, DevOps enables effective communication throughout the software development lifecycle, resulting in a more efficient and effective delivery process with fewer errors.
+=======
 1. Silos: Having silos between development and operations teams can seriously effect communication ad collaboration in the development process. Silos can also lead to slower delivery and increase the risks of errors in the project. DevOps aims to tackle this by breaking down silos and promotes cross functional teams. By promoting collaboration and shared responsibility DevOps pushes effective communication which results in more efficient and effective delivery process with fewer errors.
+>>>>>>> 243171df86c0a4de95cca8f15cbde4c47525a154
 
 ![Breaking down silos in DevOps](https://d3eeke16mv0lt7.cloudfront.net/sites/default/files/graf2-antipatterns_1.jpg)
 
@@ -108,6 +140,14 @@ Good practices:
 
 4. Over-Reliance on Tools: Over-reliance on tools is a DevOps bad practice that can lead to a lack of understanding of the underlying processes. While DevOps tools can be helpful, they should not be the sole focus of DevOps. It's important to have a strong understanding of the principles behind DevOps and to use tools to support and enhance the processes, rather than relying on them to do all the work.
 
+
+Common themes among resources:
+
+Automation: All of the articles emphasize the importance of automation in DevOps, whether it's in the form of continuous integration and delivery (CI/CD), testing, or other processes.
+
+Collaboration: DevOps is about breaking down silos between teams and promoting collaboration between developers and operations. All of the articles touch on this theme  highlighting the importance of communication and teamwork in DevOps.
+
+Best practices: Each of the articles provides insights into best practices for DevOps, whether it's specific techniques for automation, tips for building a DevOps culture, or strategies for integrating testing into the development process.
 
 
 
@@ -139,3 +179,4 @@ References:
 13. https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 
 14. https://www.pluralsight.com/blog/tutorials/code-review	
+
