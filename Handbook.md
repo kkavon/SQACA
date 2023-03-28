@@ -1,8 +1,10 @@
 Introduction
 
-The aim of this handbook provide numerous different series of the best and worst practices for software engineers working within our rapidly evolving startup. As our team expands, it is crucial to adopt a standard approach to software development, to make sure that our code remains of the highest quality and that we continue to enhance predictability across our projects. This guide has three primary areas of focus: Task Estimation in Scrum, Code Reviews, and .
+The aim of this handbook provide numerous different series of the best and worst practices for software engineers working within our rapidly evolving startup. As our team expands, it is crucial to adopt a standard approach to software development, to make sure that our code remains of the highest quality and that we continue to enhance predictability across our projects. This guide has three primary areas of focus: Task Estimation in Scrum, Code Reviews, and DevOps.
 
 The handbook is organised by providing a brief introduction to each topic, followed by guidelines presented in bullet points along with some diagrams. We have also included links to necessary discussed reference articles for those interested in delving deeper into the subjects. Our aim is to create a user-friendly resource that allows team members to quickly review and grasp the best practices.
+
+Lets take a look at our first topic.
 
 Task Estimation in Scrum
 
@@ -15,7 +17,8 @@ Good Practices:
 [Planning Poker: An Effective Estimation Technique](https://www.mountaingoatsoftware.com/agile/planning-poker)
 ![Take a look at an how its done !](http://www.scrum-tips.com/wp-content/uploads/2016/03/Tasks_ScrumTips.png)
 
-2.	Break down tasks into smaller, more manageable tasks: Larger tasks can be challenging to estimate accurately. By dividing them up into smaller tasks, team members can better understand the goals and requirements therefore  providing more precise estimates. This practice also makes it easier to manage and track progress and identify bottlenecks.
+2.	Break down tasks into smaller, more manageable tasks: Larger tasks can be challenging to estimate accurately. By dividing them up into smaller tasks, team members can better understand the goals and requirements therefore providing more precise estimates. This practice also makes it easier to manage and track progress and identify bottlenecks.
+
 3.	Consider using relative estimation such as story points rather than time-based estimates: Relative estimation also known as T-shirt sizing involves comparing tasks to one another based on their complexity, rather than estimating the time required to complete them. This method can be more accurate, as it factors in the team's expertise and allows for greater flexibility when adapting to changes in the project.
 [Top 5 Scrum Estimation Techniques](https://www.knowledgehut.com/blog/agile/top-5-scrum-estimation-techniques-find-your-best-fit)
 ![T-shirt sizing diagram](https://blog.zenhub.com/wp-content/uploads/2022/11/T-ShirtSizingEstimationChart.webp)
@@ -28,14 +31,16 @@ Good Practices:
 
 Bad Practices to Avoid:
 1.	Relying on a single individual for estimations: Depending on one person to estimate tasks can lead to biased or inaccurate estimates. Involving the entire team in the estimation process ensures a more balanced and accurate result.
-2.	Estimating without enough information about the task: Attempting to estimate tasks without enough information can lead to overly optimistic or pessimistic projections. It is essential to gather as much information as possible before starting the task estimation process.
-3.	Being overly optimistic or pessimistic with estimates: Overly optimistic estimates can lead to missed deadlines and disappointed stakeholders, while overly pessimistic estimates can result in wasted resources and reduced team morale. Team members must strive for a balanced, realistic approach to task estimation.
 
+2.	Estimating without enough information about the task: Attempting to estimate tasks without enough information can lead to overly optimistic or pessimistic projections. It is essential to gather as much information as possible before starting the task estimation process.
+
+3.	Being overly optimistic or pessimistic with estimates: Overly optimistic estimates can lead to missed deadlines and disappointed stakeholders, while overly pessimistic estimates can result in wasted resources and reduced team morale. Team members must strive for a balanced, realistic approach to task estimation.
 ![Overly optimistic Scrum estimation](https://apmg-international.com/sites/www.apmg-international.com/files/styles/paragraph_media/public/medias/paragraphs/optimism_bias_1_0.png?itok=OyoQmWBt)
 
 4.	Not reviewing or adjusting estimates as new information emerges: Failing to revisit and adjust current estimates as the project continues to progresses can result in misaligned expectations and wasted resources. Regularly review and update estimates to ensure the team remains on track and aligned with the project's goals.
 
 
+<<<<<<< HEAD
 Common Themes:
 
 1. Collaboration: Involving the entire team in the estimation process ensures more accurate and balanced results.
@@ -47,12 +52,13 @@ Common Themes:
 4. Continuous Adjustment: Revisiting and adjusting estimates throughout the project lifecycle is essential for staying aligned with project goals and adapting to changes.
 
 5. Learning from History: Analyzing past estimation successes and shortcomings can help improve future estimation accuracy.
+=======
+>>>>>>> 243171df86c0a4de95cca8f15cbde4c47525a154
 
 
 
 Code Reviews
 
-Introduction:
 A code review normally takes place when a software developer completes a task which may have been assigned to them through an agile workspace.  The review will mainly consist of another employee (who has an expert knowledge in that particular area) to review the code and functionality to see if the code will contain any bugs or will it impact any other features within the entire project.
 
 ![Code review process](https://www.researchgate.net/profile/Toshiki-Hirao/publication/303097906/figure/fig2/AS:637825489838081@1529080855326/An-Overview-of-Modern-Code-Review-Processes.png)
@@ -93,36 +99,46 @@ Common themes among resources:
 
 
 
+<<<<<<< HEAD
 
+=======
+Automation: All of the articles talk about the importance of automation in DevOps, whether it's about continuous integration and delivery (CI/CD), testing, or other processes. The importance of automation is heavily stressed.
+
+Collaboration: DevOps is about breaking down silos between teams and promoting collaboration between developers and operations. All of the articles talk about this highlighting the importance of communication and teamwork in DevOps.
+>>>>>>> 243171df86c0a4de95cca8f15cbde4c47525a154
 
 
 Extra Topic - DevOps
 DevOps is a set of practices and tools that integrates and automates the work of software development and IT operations to improve and shorten the systems development life cycle in the software development and IT industry. DevOps is primarily aimed at increasing an organization's ability to deliver applications and services quickly, evolving and improving products at a faster pace than those using traditional software development and infrastructure management processes. 
 
 Good practices:
-1. Continuous Integration and delivery (CI/CD): This is a DevOps practice that involves automating the process of testing, integrating, and deploying code changes. The process begins with frequent code changes being pushed to a shared repository and automatically tested against an automated testing framework. Once the code passes all tests in the staging environment, it is automatically deployed to the production environment, resulting in faster and more reliable software delivery.
+1. Continuous Integration and delivery (CI/CD): This is a DevOps practice that involves automating the process of testing, integrating, and deploying code changes.It startes with frequent code changed being pushed to the repository where they are tested on the testing framework . Once the code passes all tests in the staging environment it is automatically deployed to the production environment giving faster and more reliable software.
 
 ![Continuous integration continuous delivery](https://razorops.com/images/blog/Arrow%20Timeline%20Process%20Diagram%20Infographic%20Brainstorm.png)
 
-2. Configuration Management: In DevOps, configuration management involves managing the configurations of systems, applications, and infrastructure to ensure consistency and reliability. Configuration management tools such as Chef, Puppet, and Ansible automate the process of managing configurations, making it easier to manage complex environments. Configuration management is essential in DevOps as it ensures predictability in the deployment and management of applications and infrastructure.
+2. Configuration management: Configuration management is in place to ensure consistency and reliability through the configuration of applications and systems. It makes use of tools like Chef, Puppet and Ansible to help automate this process which makes it much easier for more complex environments. Configuration management is essential as it ensures predictability of the deployment of applications and its infrastructure.
 
-3. Automation: Automation is a fundamental aspect of DevOps that provides significant benefits, including consistency, speed, and scalability. Automated processes are predictable and reliable, which eliminates human errors that can occur in manual processes. Automation accelerates the speed of code integration and application deployment, enabling developers to release new code faster and more efficiently. Furthermore, automation is essential for scalability, allowing teams to manage multiple applications and deploy them to various environments without any issues.
+3. Automation: Automation is a core aspect of DevOps that provides massive benefits which includ consistency, speed, and scalability. Automated processes are  reliable which eliminates human errors. Automation is essential for scalability because it allows teams to manage multiple applications and deploy them to various environments without any issues.
 
-4. Agile Management: Agile is an iterative project management approach that prioritizes individuals and interactions, working software, customer collaboration, and responding to change. Agile acknowledges that requirements and solutions will evolve over time and encourages teams to adapt and respond to those changes. Combining DevOps with an agile approach enables teams to release small pieces of functionality, gather customer feedback, and iterate on it, resulting in faster deployment and higher-quality projects. The agile principle of small, iterative development aligns well with the DevOps approach.
+4. Agile Management: Agile is a management approach that prioritizes individuals, working software, customer collaboration and response to change. It acknowledges that solutions and requirements will change throughout a project and encourages people to adapt to the changes they need to make. The combination of DevOps and agile means a team can release small pieces of functionality, get customer feedback and and iterate on it which leads to higher quality products and faster deployment.
 
 ![Agile Management](https://cdnb.ganttpro.com/uploads/2020/12/Why-Agile.png)
 
+<<<<<<< HEAD
 
 Bad Practices to Avoid:
 1. Silos: Maintaining silos between development and operations teams is a hindrance to effective communication and collaboration in software development. Silos can lead to slower delivery processes and increased risk of errors. DevOps addresses this issue by breaking down silos and promoting cross-functional teams. By fostering a culture of shared responsibility and collaboration, DevOps enables effective communication throughout the software development lifecycle, resulting in a more efficient and effective delivery process with fewer errors.
+=======
+1. Silos: Having silos between development and operations teams can seriously effect communication ad collaboration in the development process. Silos can also lead to slower delivery and increase the risks of errors in the project. DevOps aims to tackle this by breaking down silos and promotes cross functional teams. By promoting collaboration and shared responsibility DevOps pushes effective communication which results in more efficient and effective delivery process with fewer errors.
+>>>>>>> 243171df86c0a4de95cca8f15cbde4c47525a154
 
 ![Breaking down silos in DevOps](https://d3eeke16mv0lt7.cloudfront.net/sites/default/files/graf2-antipatterns_1.jpg)
 
-2. Lack of testing: Testing and quality assurance are crucial in software development to prevent the release of buggy and vulnerable software. Effective testing includes unit testing, integration testing, system testing, performance testing, and security testing. In DevOps, testing is integrated into the development process through continuous testing practices that involve automated testing and continuous integration and delivery pipelines. Prioritizing testing can reduce the risk of defects and vulnerabilities, improve software stability and functionality, and lead to better outcomes for customers. Some good points are talked about in this video! [importance of testing in DevOps] (https://www.youtube.com/watch?v=GVMwLHEmU6Y)
+2. Lack of testing: Testing and quality assurance are essential in software development to stop the release of software containing bugs. In DevOps, testing is integrated into the development process through continuous testing practices that involve automated testing and continuous integration. When testing is prioritized the risk of defects are a lot lower and which helps improve software stability and functionality which means higher quality products for customers.
 
-3. Lack of communication and collaboration between teams is a common DevOps bad practice. DevOps is all about breaking down silos and fostering a culture of collaboration to achieve the desired outcomes. Without proper communication, there can be misunderstandings, delays, and other issues that can negatively impact the efficiency and effectiveness of your DevOps processes.
+3. Poor Communication: Lack of communication and collaboration between teams is a common DevOps bad practice. DevOps is all about breaking down silos and fostering a culture of collaboration to achieve the desired outcomes. Without proper communication, there can be misunderstandings, delays, and other issues that can negatively impact the efficiency and effectiveness of your DevOps processes.
 
-4. Over-Reliance on Tools: Over-reliance on tools is a DevOps bad practice that can lead to a lack of understanding of the underlying processes. While DevOps tools can be helpful, they should not be the sole focus of DevOps. It's important to have a thorough understanding of the principles behind DevOps and to use tools to support and enhance the processes, rather than relying on them to do all the work.
+4. Over-Reliance on Tools: Over-reliance on tools is a DevOps bad practice that can lead to a lack of understanding of the underlying processes. While DevOps tools can be helpful, they should not be the sole focus of DevOps. It's important to have a strong understanding of the principles behind DevOps and to use tools to support and enhance the processes, rather than relying on them to do all the work.
 
 
 Common themes among resources:
