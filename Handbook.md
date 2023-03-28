@@ -55,7 +55,26 @@ Good practices:
 
 ![Agile Management](https://cdnb.ganttpro.com/uploads/2020/12/Why-Agile.png)
 
+1. Silos: Maintaining silos between development and operations teams is a hindrance to effective communication and collaboration in software development. Silos can lead to slower delivery processes and increased risk of errors. DevOps addresses this issue by breaking down silos and promoting cross-functional teams. By fostering a culture of shared responsibility and collaboration, DevOps enables effective communication throughout the software development lifecycle, resulting in a more efficient and effective delivery process with fewer errors.
 
+![Breaking down silos in DevOps](https://d3eeke16mv0lt7.cloudfront.net/sites/default/files/graf2-antipatterns_1.jpg)
+
+2. Lack of testing: Testing and quality assurance are crucial in software development to prevent the release of buggy and vulnerable software. Effective testing includes unit testing, integration testing, system testing, performance testing, and security testing. In DevOps, testing is integrated into the development process through continuous testing practices that involve automated testing and continuous integration and delivery pipelines. Prioritizing testing can reduce the risk of defects and vulnerabilities, improve software stability and functionality, and lead to better outcomes for customers. Some good points are talked about in this video! [importance of testing in DevOps] (https://www.youtube.com/watch?v=GVMwLHEmU6Y)
+
+3. Lack of communication and collaboration between teams is a common DevOps bad practice. DevOps is all about breaking down silos and fostering a culture of collaboration to achieve the desired outcomes. Without proper communication, there can be misunderstandings, delays, and other issues that can negatively impact the efficiency and effectiveness of your DevOps processes.
+
+4. Over-Reliance on Tools: Over-reliance on tools is a DevOps bad practice that can lead to a lack of understanding of the underlying processes. While DevOps tools can be helpful, they should not be the sole focus of DevOps. It's important to have a thorough understanding of the principles behind DevOps and to use tools to support and enhance the processes, rather than relying on them to do all the work.
+
+
+
+
+
+
+Refences to add:
+
+Importance of braking down silos:  https://devops.com/devops-the-ultimate-way-to-break-down-silos/
+
+Will Devops Kill Testing: https://techbeacon.com/app-dev-testing/will-devops-speed-kill-testing
 
 
 
