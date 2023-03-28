@@ -33,6 +33,35 @@ Bad Practices to Avoid:
 4.	Not reviewing or adjusting estimates as new information emerges: Failing to revisit and adjust current estimates as the project continues to progresses can result in misaligned expectations and wasted resources. Regularly review and update estimates to ensure the team remains on track and aligned with the project's goals.
 
 
+
+
+
+
+
+Extra Topic - DevOps
+
+DevOps is a set of practices and tools that integrates and automates the work of software development and IT operations to improve and shorten the systems development life cycle in the software development and IT industry. DevOps is primarily aimed at increasing an organization's ability to deliver applications and services quickly, evolving and improving products at a faster pace than those using traditional software development and infrastructure management processes. 
+
+Good practices:
+1. Continuous Integration and delivery (CI/CD): This is a DevOps practice that involves automating the process of testing, integrating, and deploying code changes. The process begins with frequent code changes being pushed to a shared repository and automatically tested against an automated testing framework. Once the code passes all tests in the staging environment, it is automatically deployed to the production environment, resulting in faster and more reliable software delivery.
+
+![Continuous integration continuous delivery](https://razorops.com/images/blog/Arrow%20Timeline%20Process%20Diagram%20Infographic%20Brainstorm.png)
+
+2. Configuration Management: In DevOps, configuration management involves managing the configurations of systems, applications, and infrastructure to ensure consistency and reliability. Configuration management tools such as Chef, Puppet, and Ansible automate the process of managing configurations, making it easier to manage complex environments. Configuration management is essential in DevOps as it ensures predictability in the deployment and management of applications and infrastructure.
+
+3. Automation: Automation is a fundamental aspect of DevOps that provides significant benefits, including consistency, speed, and scalability. Automated processes are predictable and reliable, which eliminates human errors that can occur in manual processes. Automation accelerates the speed of code integration and application deployment, enabling developers to release new code faster and more efficiently. Furthermore, automation is essential for scalability, allowing teams to manage multiple applications and deploy them to various environments without any issues.
+
+4. Agile Management: Agile is an iterative project management approach that prioritizes individuals and interactions, working software, customer collaboration, and responding to change. Agile acknowledges that requirements and solutions will evolve over time and encourages teams to adapt and respond to those changes. Combining DevOps with an agile approach enables teams to release small pieces of functionality, gather customer feedback, and iterate on it, resulting in faster deployment and higher-quality projects. The agile principle of small, iterative development aligns well with the DevOps approach.
+
+![Agile Management](https://cdnb.ganttpro.com/uploads/2020/12/Why-Agile.png)
+
+
+
+
+
+
+
+
 1.	How to Estimate Tasks in Scrum: A Practical Guide(https://www.cybermedian.com/pl/how-to-scrum-a-practice-guide/)
 
 2.	The Art of Task Estimation in Agile Development (http://www.jamesshore.com/v2/books/aoad1/estimating)
@@ -43,4 +72,9 @@ Bad Practices to Avoid:
 
 5.	Top 5 Scrum Estimation Techniques (https://www.knowledgehut.com/blog/agile/top-5-scrum-estimation-techniques-find-your-best-fit)
 
+6.  Devops best practices (https://www.cloudzero.com/blog/devops-best-practices)
+
+7.  Continuous Integration / Continuous Delivery (https://razorops.com/blog/what-is-continuous-integration-and-continuous-delivery/)
+
+8.  Automation in DevOps (https://www.sumologic.com/blog/devops-automation-best-practices-benefits/)
 
