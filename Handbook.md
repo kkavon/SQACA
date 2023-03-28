@@ -40,7 +40,7 @@ Bad Practices to Avoid:
 4.	Not reviewing or adjusting estimates as new information emerges: Failing to revisit and adjust current estimates as the project continues to progresses can result in misaligned expectations and wasted resources. Regularly review and update estimates to ensure the team remains on track and aligned with the project's goals.
 
 
-<<<<<<< HEAD
+
 Common Themes:
 
 1. Collaboration: Involving the entire team in the estimation process ensures more accurate and balanced results.
@@ -52,8 +52,7 @@ Common Themes:
 4. Continuous Adjustment: Revisiting and adjusting estimates throughout the project lifecycle is essential for staying aligned with project goals and adapting to changes.
 
 5. Learning from History: Analyzing past estimation successes and shortcomings can help improve future estimation accuracy.
-=======
->>>>>>> 243171df86c0a4de95cca8f15cbde4c47525a154
+
 
 
 
@@ -99,13 +98,6 @@ Common themes among resources:
 
 
 
-<<<<<<< HEAD
-
-=======
-Automation: All of the articles talk about the importance of automation in DevOps, whether it's about continuous integration and delivery (CI/CD), testing, or other processes. The importance of automation is heavily stressed.
-
-Collaboration: DevOps is about breaking down silos between teams and promoting collaboration between developers and operations. All of the articles talk about this highlighting the importance of communication and teamwork in DevOps.
->>>>>>> 243171df86c0a4de95cca8f15cbde4c47525a154
 
 
 Extra Topic - DevOps
@@ -113,7 +105,6 @@ DevOps is a set of practices and tools that integrates and automates the work of
 
 Good practices:
 1. Continuous Integration and delivery (CI/CD): This is a DevOps practice that involves automating the process of testing, integrating, and deploying code changes.It startes with frequent code changed being pushed to the repository where they are tested on the testing framework . Once the code passes all tests in the staging environment it is automatically deployed to the production environment giving faster and more reliable software.
-
 ![Continuous integration continuous delivery](https://razorops.com/images/blog/Arrow%20Timeline%20Process%20Diagram%20Infographic%20Brainstorm.png)
 
 2. Configuration management: Configuration management is in place to ensure consistency and reliability through the configuration of applications and systems. It makes use of tools like Chef, Puppet and Ansible to help automate this process which makes it much easier for more complex environments. Configuration management is essential as it ensures predictability of the deployment of applications and its infrastructure.
@@ -121,17 +112,14 @@ Good practices:
 3. Automation: Automation is a core aspect of DevOps that provides massive benefits which includ consistency, speed, and scalability. Automated processes are  reliable which eliminates human errors. Automation is essential for scalability because it allows teams to manage multiple applications and deploy them to various environments without any issues.
 
 4. Agile Management: Agile is a management approach that prioritizes individuals, working software, customer collaboration and response to change. It acknowledges that solutions and requirements will change throughout a project and encourages people to adapt to the changes they need to make. The combination of DevOps and agile means a team can release small pieces of functionality, get customer feedback and and iterate on it which leads to higher quality products and faster deployment.
-
 ![Agile Management](https://cdnb.ganttpro.com/uploads/2020/12/Why-Agile.png)
 
-<<<<<<< HEAD
+
 
 Bad Practices to Avoid:
 1. Silos: Maintaining silos between development and operations teams is a hindrance to effective communication and collaboration in software development. Silos can lead to slower delivery processes and increased risk of errors. DevOps addresses this issue by breaking down silos and promoting cross-functional teams. By fostering a culture of shared responsibility and collaboration, DevOps enables effective communication throughout the software development lifecycle, resulting in a more efficient and effective delivery process with fewer errors.
-=======
-1. Silos: Having silos between development and operations teams can seriously effect communication ad collaboration in the development process. Silos can also lead to slower delivery and increase the risks of errors in the project. DevOps aims to tackle this by breaking down silos and promotes cross functional teams. By promoting collaboration and shared responsibility DevOps pushes effective communication which results in more efficient and effective delivery process with fewer errors.
->>>>>>> 243171df86c0a4de95cca8f15cbde4c47525a154
 
+1. Silos: Having silos between development and operations teams can seriously effect communication ad collaboration in the development process. Silos can also lead to slower delivery and increase the risks of errors in the project. DevOps aims to tackle this by breaking down silos and promotes cross functional teams. By promoting collaboration and shared responsibility DevOps pushes effective communication which results in more efficient and effective delivery process with fewer errors.
 ![Breaking down silos in DevOps](https://d3eeke16mv0lt7.cloudfront.net/sites/default/files/graf2-antipatterns_1.jpg)
 
 2. Lack of testing: Testing and quality assurance are essential in software development to stop the release of software containing bugs. In DevOps, testing is integrated into the development process through continuous testing practices that involve automated testing and continuous integration. When testing is prioritized the risk of defects are a lot lower and which helps improve software stability and functionality which means higher quality products for customers.
