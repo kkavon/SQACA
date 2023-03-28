@@ -2,7 +2,7 @@ Introduction
 
 The aim of this handbook provide numerous different series of the best and worst practices for software engineers working within our rapidly evolving startup. As our team expands, it is crucial to adopt a standard approach to software development, to make sure that our code remains of the highest quality and that we continue to enhance predictability across our projects. This guide has three primary areas of focus: Task Estimation in Scrum, Code Reviews, and .
 
-The handbook is organised by providing a breif introduction to each topic, followed by guidelines presented in bullet points along with some diagrams. We have also included links to necessary discussed reference articles for those interested in delving deeper into the subjects. Our aim is to create a user-friendly resource that allows team members to quickly review and grasp the best practices.
+The handbook is organised by providing a brief introduction to each topic, followed by guidelines presented in bullet points along with some diagrams. We have also included links to necessary discussed reference articles for those interested in delving deeper into the subjects. Our aim is to create a user-friendly resource that allows team members to quickly review and grasp the best practices.
 
 Task Estimation in Scrum
 
@@ -66,6 +66,14 @@ Bad Practices:
 Extra Topic - DevOps
 
 DevOps is a set of practices and tools that integrates and automates the work of software development and IT operations to improve and shorten the systems development life cycle in the software development and IT industry. DevOps is primarily aimed at increasing an organization's ability to deliver applications and services quickly, evolving and improving products at a faster pace than those using traditional software development and infrastructure management processes. 
+
+Common themes among resources:
+
+Automation: All of the articles emphasize the importance of automation in DevOps, whether it's in the form of continuous integration and delivery (CI/CD), testing, or other processes.
+
+Collaboration: DevOps is about breaking down silos between teams and promoting collaboration between developers and operations. All of the articles touch on this theme  highlighting the importance of communication and teamwork in DevOps.
+
+Best practices: Each of the articles provides insights into best practices for DevOps, whether it's specific techniques for automation, tips for building a DevOps culture, or strategies for integrating testing into the development process.
 
 Good practices:
 1. Continuous Integration and delivery (CI/CD): This is a DevOps practice that involves automating the process of testing, integrating, and deploying code changes. The process begins with frequent code changes being pushed to a shared repository and automatically tested against an automated testing framework. Once the code passes all tests in the staging environment, it is automatically deployed to the production environment, resulting in faster and more reliable software delivery.
