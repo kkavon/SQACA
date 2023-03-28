@@ -32,7 +32,32 @@ Bad Practices to Avoid:
 
 4.	Not reviewing or adjusting estimates as new information emerges: Failing to revisit and adjust current estimates as the project continues to progresses can result in misaligned expectations and wasted resources. Regularly review and update estimates to ensure the team remains on track and aligned with the project's goals.
 
+Code Reviews
 
+Introduction:
+A code review normally takes place when a software developer completes a task which may have been assigned to them through an agile workspace.  The review will mainly consist of another employee (who has an expert knowledge in that particular area) to review the code and functionality to see if the code will contain any bugs or will it impact any other features within the entire project.
+
+![Code review process](https://www.researchgate.net/profile/Toshiki-Hirao/publication/303097906/figure/fig2/AS:637825489838081@1529080855326/An-Overview-of-Modern-Code-Review-Processes.png)
+
+Common themes among resources:
+1. Identifying bugs: By the code reviewer identifying bugs that have gone unnoticed, this makes the code secure that by when adding a new implementation of code, it will not hamper any previous code written.
+
+2. Code reviewer: Ensuring that the reviewer must be of a senior level and have a high understanding of the code particularly that is being implemented and whether it can successfully be added to the current code.
+
+3. Consistency: It is very important that when a team of coders are working together on a project that the code being implemented is to the same consistency of each other. It is important that code will be efficient and will run smoothly at all stages.
+
+4. Code Quality: By everyone writing the code to the level of what is expected this will result in the outcome of the project that has been undertaken.
+
+Bad Practices:
+1. Reviewing too much code at time: When reviewing code, it is important not to take too much code to review at a certain time and not to exceed a time limit also.  don’t review over 400 lines at a time.
+
+2. Do not rush a code review: Taking the necessary time to review code and not overlook chunks of code. It would be very easy to glance through code provided and not having a clear understanding of what the code is actually doing.
+
+3. Unconstructive feedback: By the code reviewer not giving clear and constructive feedback, this can lead to a hostile environment within the team and will make employees reluctant to work with one another.
+
+4. Security level: When speaking about security in coding it is a very serious matter. Ensuring the highest level of security is reached is a very important among coding so that data and knowledge of the company is not stolen from hackers.
+
+![Benefits of coding reviews](https://distantjob.com/wp-content/uploads/2021/09/1st-Sep-DJ-Visual-Benefits-of-Code-Reviews.jpg)
 
 
 
@@ -68,19 +93,7 @@ Good practices:
 
 
 
-
-
-Refences to add:
-
-Importance of braking down silos:  https://devops.com/devops-the-ultimate-way-to-break-down-silos/
-
-Will Devops Kill Testing: https://techbeacon.com/app-dev-testing/will-devops-speed-kill-testing
-
-
-
-
-
-
+References:
 1.	How to Estimate Tasks in Scrum: A Practical Guide(https://www.cybermedian.com/pl/how-to-scrum-a-practice-guide/)
 
 2.	The Art of Task Estimation in Agile Development (http://www.jamesshore.com/v2/books/aoad1/estimating)
@@ -97,3 +110,14 @@ Will Devops Kill Testing: https://techbeacon.com/app-dev-testing/will-devops-spe
 
 8.  Automation in DevOps (https://www.sumologic.com/blog/devops-automation-best-practices-benefits/)
 
+9. Importance of braking down silos:  https://devops.com/devops-the-ultimate-way-to-break-down-silos/
+
+10. Will Devops Kill Testing: https://techbeacon.com/app-dev-testing/will-devops-speed-kill-testing
+
+11. https://about.gitlab.com/topics/version-control/what-is-code-review/#:~:text=Code%20reviews%2C%20also%20known%20as,developers%20learn%20the%20source%20code.
+
+12. https://www.atlassian.com/agile/software-development/code-reviews
+
+13. https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
+
+14. https://www.pluralsight.com/blog/tutorials/code-review	
