@@ -168,3 +168,5 @@ References:
 
 14. https://www.pluralsight.com/blog/tutorials/code-review	
 
+15.https://betterprogramming.pub/the-purpose-of-code-review-c9942ee551e2
+
