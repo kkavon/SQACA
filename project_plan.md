@@ -20,3 +20,14 @@ Each group member will then clone the repo, create a branch and finally push the
 Each member will then review and edit the handbook.
 
 Finalise and submit the handbook
+
+
+Changes we would make as a team :
+
+1. Improve communication: Although we worked very well as a team, we could have established more effective channels of communication, such as more regular team meetings or using collaboration tools to keep everyone even more informed and engaged.
+
+2. Set clearer expectations: We could have defined our roles and responsibilities better for each team member even earlier to avoid confusion and ensure everyone knows what is expected of them. 
+
+3. Better time management: We could have developed a more realistic project timeline and milestones, taking into account potential setbacks, and review progress regularly to ensure the team stays on track. We managed to finish the project early as planned to review our work, but even earlier would have been beneficial.
+
+4. Enhance resource allocation: We could have evaluated and optimised the distribution of resources better to ensure that we understoofd the topic more clearly. 
