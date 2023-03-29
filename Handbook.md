@@ -7,6 +7,7 @@ The handbook is organised by providing a brief introduction to each topic, follo
 Lets take a look at our first topic.
 
 **Task Estimation in Scrum**
+
 Task estimation in Scrum is a critical part of project management, as it enables teams to allocate resources effectively and set realistic expectations for stakeholders. In the world of Agile and Scrum, accurate task estimation is essential for ensuring the successful delivery of projects on time and within budget. In this article, we will explore good practices and bad practices to avoid, providing a comprehensive look at task estimation in Scrum.
 
 ![Benefits of agile scrum](https://www.7pace.com/wp-content/uploads/2022/03/01_Image_Benefits-Agile_system-scaled.jpg)
@@ -58,6 +59,7 @@ Task estimation in Scrum is a critical part of project management, as it enables
 
 
 **Code Reviews**
+
 A code review normally takes place when a software developer completes a task which may have been assigned to them through an agile workspace.  The review will mainly consist of another employee (who has an expert knowledge in that particular area) to review the code and functionality to see if the code will contain any bugs or will it impact any other features within the entire project.
 
 ![Code review process](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10664-020-09909-5/MediaObjects/10664_2020_9909_Fig1_HTML.png)
@@ -104,6 +106,7 @@ A code review normally takes place when a software developer completes a task wh
 
 
 **Extra Topic - DevOps**
+
 DevOps is a set of practices and tools that integrates and automates the work of software development and IT operations to improve and shorten the systems development life cycle in the software development and IT industry. DevOps is primarily aimed at increasing an organization's ability to deliver applications and services quickly, evolving and improving products at a faster pace than those using traditional software development and infrastructure management processes. 
 
 **Good practices:**
@@ -145,6 +148,7 @@ Best practices: Each of the articles provides insights into best practices for D
 
 
 **References:**
+
 1.	How to Estimate Tasks in Scrum: A Practical Guide(https://www.cybermedian.com/pl/how-to-scrum-a-practice-guide/)
 
 2.	The Art of Task Estimation in Agile Development (http://www.jamesshore.com/v2/books/aoad1/estimating)
