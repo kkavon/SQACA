@@ -1,4 +1,4 @@
-Introduction
+**Introduction**
 
 The aim of this handbook provide numerous different series of the best and worst practices for software engineers working within our rapidly evolving startup. As our team expands, it is crucial to adopt a standard approach to software development, to make sure that our code remains of the highest quality and that we continue to enhance predictability across our projects. This guide has three primary areas of focus: Task Estimation in Scrum, Code Reviews, and DevOps.
 
@@ -6,13 +6,13 @@ The handbook is organised by providing a brief introduction to each topic, follo
 
 Lets take a look at our first topic.
 
-Task Estimation in Scrum
-
+**Task Estimation in Scrum**
 Task estimation in Scrum is a critical part of project management, as it enables teams to allocate resources effectively and set realistic expectations for stakeholders. In the world of Agile and Scrum, accurate task estimation is essential for ensuring the successful delivery of projects on time and within budget. In this article, we will explore good practices and bad practices to avoid, providing a comprehensive look at task estimation in Scrum.
 
 ![Benefits of agile scrum](https://www.7pace.com/wp-content/uploads/2022/03/01_Image_Benefits-Agile_system-scaled.jpg)
 
-Good Practices:
+**Good Practices:**
+
 1.	Use planning poker to estimate tasks collaboratively: Planning poker is a consensus based estimation technique that involves the entire team in the estimation process. Team members use a deck of cards with numbers representing different levels of effort to estimate a given task. This technique encourages discussion and helps the team reach a shared understanding of the task's level of difficulty.
 [Planning Poker: An Effective Estimation Technique](https://www.mountaingoatsoftware.com/agile/planning-poker)
 ![Take a look at an how its done !](http://www.scrum-tips.com/wp-content/uploads/2016/03/Tasks_ScrumTips.png)
@@ -29,7 +29,8 @@ Good Practices:
 
 6.	Examine historical estimation precision to enhance subsequent estimations: By assessing past successes and shortcomings in estimations, the team can discern trends and derive lessons from errors made. This knowledge can be employed to boost the accuracy of estimations in the future.
 
-Bad Practices to Avoid:
+**Bad Practices to Avoid:**
+
 1.	Relying on a single individual for estimations: Depending on one person to estimate tasks can lead to biased or inaccurate estimates. Involving the entire team in the estimation process ensures a more balanced and accurate result.
 
 2.	Estimating without enough information about the task: Attempting to estimate tasks without enough information can lead to overly optimistic or pessimistic projections. It is essential to gather as much information as possible before starting the task estimation process.
@@ -41,7 +42,7 @@ Bad Practices to Avoid:
 
 
 
-Common Themes:
+**Common Themes:**
 
 1. Collaboration: Involving the entire team in the estimation process ensures more accurate and balanced results.
 
@@ -56,13 +57,13 @@ Common Themes:
 
 
 
-Code Reviews
-
+**Code Reviews**
 A code review normally takes place when a software developer completes a task which may have been assigned to them through an agile workspace.  The review will mainly consist of another employee (who has an expert knowledge in that particular area) to review the code and functionality to see if the code will contain any bugs or will it impact any other features within the entire project.
 
 ![Code review process](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10664-020-09909-5/MediaObjects/10664_2020_9909_Fig1_HTML.png)
 
-Good Practices:
+**Good Practices:**
+
 1. Duration of review: The duration of reviewing code at one time is very important. It is important to not exceed a certain amount of code as it is not focused enough and may be very easy to overlook something that may hinder the code.
  [Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
 ![Best Practices for Code Review](https://static1.smartbear.co/smartbear/media/images/product/collaborator/code-review-best-practices-figure-01.gif)
@@ -75,7 +76,8 @@ Good Practices:
 [Whats the purpose of code reviews?](https://betterprogramming.pub/the-purpose-of-code-review-c9942ee551e2)
 
 
-Bad Practices to Avoid:
+**Bad Practices to Avoid:**
+
 1. Reviewing too much code at time: When reviewing code, it is important not to take too much code to review at a certain time and not to exceed a time limit also.  don’t review over 400 lines at a time.
 
 2. Do not rush a code review: Taking the necessary time to review code and not overlook chunks of code. It would be very easy to glance through code provided and not having a clear understanding of what the code is actually doing.
@@ -87,7 +89,8 @@ Bad Practices to Avoid:
 ![Benefits of coding reviews](https://distantjob.com/wp-content/uploads/2021/09/1st-Sep-DJ-Visual-Benefits-of-Code-Reviews.jpg)
 
 
-Common themes among resources:
+**Common themes among resources:**
+
 1. Identifying bugs: By the code reviewer identifying bugs that have gone unnoticed, this makes the code secure that by when adding a new implementation of code, it will not hamper any previous code written.
 
 2. Code reviewer: Ensuring that the reviewer must be of a senior level and have a high understanding of the code particularly that is being implemented and whether it can successfully be added to the current code.
@@ -100,10 +103,11 @@ Common themes among resources:
 
 
 
-Extra Topic - DevOps
+**Extra Topic - DevOps**
 DevOps is a set of practices and tools that integrates and automates the work of software development and IT operations to improve and shorten the systems development life cycle in the software development and IT industry. DevOps is primarily aimed at increasing an organization's ability to deliver applications and services quickly, evolving and improving products at a faster pace than those using traditional software development and infrastructure management processes. 
 
-Good practices:
+**Good practices:**
+
 1. Continuous Integration and delivery (CI/CD): This is a DevOps practice that involves automating the process of testing, integrating, and deploying code changes.It startes with frequent code changed being pushed to the repository where they are tested on the testing framework . Once the code passes all tests in the staging environment it is automatically deployed to the production environment giving faster and more reliable software.
 ![Continuous integration continuous delivery](https://razorops.com/images/blog/Arrow%20Timeline%20Process%20Diagram%20Infographic%20Brainstorm.png)
 
@@ -116,7 +120,8 @@ Good practices:
 
 
 
-Bad Practices to Avoid:
+**Bad Practices to Avoid:**
+
 1. Silos: Maintaining silos between development and operations teams is a hindrance to effective communication and collaboration in software development. Silos can lead to slower delivery processes and increased risk of errors. DevOps addresses this issue by breaking down silos and promoting cross-functional teams. By fostering a culture of shared responsibility and collaboration, DevOps enables effective communication throughout the software development lifecycle, resulting in a more efficient and effective delivery process with fewer errors.
 
 1. Silos: Having silos between development and operations teams can seriously effect communication ad collaboration in the development process. Silos can also lead to slower delivery and increase the risks of errors in the project. DevOps aims to tackle this by breaking down silos and promotes cross functional teams. By promoting collaboration and shared responsibility DevOps pushes effective communication which results in more efficient and effective delivery process with fewer errors.
@@ -129,7 +134,7 @@ Bad Practices to Avoid:
 4. Over-Reliance on Tools: Over-reliance on tools is a DevOps bad practice that can lead to a lack of understanding of the underlying processes. While DevOps tools can be helpful, they should not be the sole focus of DevOps. It's important to have a strong understanding of the principles behind DevOps and to use tools to support and enhance the processes, rather than relying on them to do all the work.
 
 
-Common themes among resources:
+**Common themes among resources:**
 
 Automation: All of the articles emphasize the importance of automation in DevOps, whether it's in the form of continuous integration and delivery (CI/CD), testing, or other processes.
 
@@ -139,7 +144,7 @@ Best practices: Each of the articles provides insights into best practices for D
 
 
 
-References:
+**References:**
 1.	How to Estimate Tasks in Scrum: A Practical Guide(https://www.cybermedian.com/pl/how-to-scrum-a-practice-guide/)
 
 2.	The Art of Task Estimation in Agile Development (http://www.jamesshore.com/v2/books/aoad1/estimating)
@@ -168,5 +173,5 @@ References:
 
 14. https://www.pluralsight.com/blog/tutorials/code-review	
 
-15.https://betterprogramming.pub/the-purpose-of-code-review-c9942ee551e2
+15. https://betterprogramming.pub/the-purpose-of-code-review-c9942ee551e2
 
