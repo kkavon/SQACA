@@ -60,8 +60,7 @@ Code Reviews
 
 A code review normally takes place when a software developer completes a task which may have been assigned to them through an agile workspace.  The review will mainly consist of another employee (who has an expert knowledge in that particular area) to review the code and functionality to see if the code will contain any bugs or will it impact any other features within the entire project.
 
-![Code review process][(https://www.researchgate.net/profile/Toshiki-Hirao/publication/303097906/figure/fig2/AS:637825489838081@1529080855326/An-Overview-of-Modern-Code-Review-Processes.png](https://www.researchgate.net/publication/303097906/figu![image](https://user-images.githubusercontent.com/61874951/228556705-770cf911-8139-4347-b5a6-3f536d78530a.png)
-re/fig2/AS:637825489838081@1529080855326/An-Overview-of-Modern-Code-Review-Processes.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mathworks.com%2Fdiscovery%2Fcode-review.html&psig=AOvVaw3rQ7FHSR6wECSJ6u3HR6yI&ust=1680183435019000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPC0o5ihgf4CFQAAAAAdAAAAABBR))
+![Code review process](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10664-020-09909-5/MediaObjects/10664_2020_9909_Fig1_HTML.png)
 
 Good Practices:
 1. Duration of review: The duration of reviewing code at one time is very important. It is important to not exceed a certain amount of code as it is not focused enough and may be very easy to overlook something that may hinder the code.
